@@ -137,6 +137,12 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.link-underline {
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--OCEAN, #404bbf);
+}
 
 .portfolio-li {
   width: calc((100% - 48px) / 3);
