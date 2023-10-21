@@ -618,9 +618,9 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale (1);
+  transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   flex-shrink: 0;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
@@ -636,6 +636,8 @@ header {
 
 .button-close {
   position: absolute;
+  top: 24px;
+  right: 24px;
   width: 24px;
   height: 24px;
   flex-shrink: 0;
