@@ -141,6 +141,10 @@ ol {
   padding: 24px 0;
 }
 
+.current {
+  color: #404bbf;
+}
+
 .current::after {
   content: "";
   position: absolute;
